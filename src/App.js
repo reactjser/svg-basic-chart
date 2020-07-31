@@ -7,11 +7,11 @@ const App = () => {
     <HashRouter>
       <div id="nav">
         <NavLink exact to="/">
-          Home
+          柱图
         </NavLink>{' '}
         |{' '}
         <NavLink exact to="/about">
-          About
+          饼图
         </NavLink>
       </div>
       <Routes />
